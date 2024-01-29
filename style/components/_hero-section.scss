@@ -1,0 +1,52 @@
+.hero__wrapper{
+   display: flex;
+   justify-content: space-between;
+   gap: 100px;
+    .hero__links{
+        display: flex;
+        flex-direction: column;
+       text-align: start;
+       a{
+        text-align: center;
+       }
+    }
+    .hero__content{
+        
+        h2{
+            font-size: 30px;
+            color: gray;
+            margin-bottom: 20px;
+        }
+        h3{
+            font-size: 25px;
+            margin-bottom: 20px;
+            color: gray;
+            font-weight: 500;
+            font-weight: 600;
+        }
+        p{
+          @extend h3;
+          font-weight: 500;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          line-height: 30px;
+         
+        }
+        button{
+            padding: 20px;
+            background-color: blueviolet;
+            transition: all 0.5s ease-in-out;
+            border: none;
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: rgb(19, 32, 109);
+            transition: all 0.5s ease-in-out;
+        }
+        button a{
+            color: white;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+    }
+}

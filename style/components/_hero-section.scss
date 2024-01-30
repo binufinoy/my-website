@@ -1,11 +1,11 @@
 .hero__wrapper{
    display: flex;
    justify-content: space-between;
-   gap: 100px;
+  
     .hero__links{
         display: flex;
         flex-direction: column;
-       text-align: start;
+       
        a{
         text-align: center;
        }
@@ -29,6 +29,7 @@
           font-weight: 500;
           font-family: Georgia, 'Times New Roman', Times, serif;
           line-height: 30px;
+          
          
         }
         button{
@@ -47,6 +48,12 @@
             font-weight: 600;
             font-size: 20px;
         }
-
+      
+    }
+    .hero__image{
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+       
     }
 }

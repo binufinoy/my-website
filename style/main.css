@@ -27,12 +27,10 @@
 .hero__wrapper {
   display: flex;
   justify-content: space-between;
-  gap: 100px;
 }
 .hero__wrapper .hero__links {
   display: flex;
   flex-direction: column;
-  text-align: start;
 }
 .hero__wrapper .hero__links a {
   text-align: center;
@@ -69,6 +67,11 @@
   color: white;
   font-weight: 600;
   font-size: 20px;
+}
+.hero__wrapper .hero__image {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
 }
 
 * {
